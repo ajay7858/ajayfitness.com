@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('https://source.unsplash.com/collection/190727/1400x900');
+        /* height: 2000px; */
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 34px;
+    }
+    .left img {
+        height: 50px;
+        width: 50px;
+        margin: 14px 21px;
+    }
+    .left div {
+        margin: -17px -2px;
+        font-size: 19px;
+    }
+
+    .mid {
+        display: block;
+        width: 46%;
+        margin: 27px 20%;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 500px;
+        
+    }
+
+    .navbar {
+        display: inline-block;
+        
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+        
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 17px;
+        
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+
+    }
+
+    .right {
+        position: absolute;
+        top: 20px;
+        right: 34px;
+        display: inline-block;
+
+    }
+
+    .btn {
+        margin: 13px 13px;
+        color: white;
+        background-color: black;
+        padding: 8px 8px;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: gray;
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 141px 161px;
+        padding: 39px;
+        width: 35%;
+        border-radius: 28px;
+       
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 448px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 8px;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+
+    input:hover {
+        background-color: #caccd5;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gid.png" alt="ereer">
+            <div class="ajayFitness">Ajay Fitness</div>
+
+        </div>
+        <!-- mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+            
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Jharkhan now</h1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="number" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">Submit</button>
+
+
+    </div>
+
+
+</body>
+
+</html>
